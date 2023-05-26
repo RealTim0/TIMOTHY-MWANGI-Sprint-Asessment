@@ -64,6 +64,10 @@ div{
     border-radius: 50%;
     
 }
+:link{
+    font-style: italic;
+    color: aqua;
+}
 .img1{
     border-radius: 50%;
 }
