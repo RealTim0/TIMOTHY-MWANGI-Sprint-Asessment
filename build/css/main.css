@@ -7,46 +7,50 @@
 html{
     scroll-behavior: smooth;
     max-width: 100%;
-
+    /* overflow-x: hidden; */
 }
-@media  screen (max-width:576px) {
+ /* @media  screen and (max-width:576px) {
     body{
-        overflow: hidden;
-    }
-    
+        overflow:x-hidden;
+    } 
 }
+     */
+
 body{
     background-color: rgb(3, 3, 3);
     color: white;
     border: 5px solid black;
-    /* border-top-color: whitesmoke; */
-    border-radius: 15px;
+    /* border-top-color: rgb(225,211,211); */
+    border-radius: 10px;
     margin: 4px;
-    padding:7px;
+    padding:5px;
    max-width: 100%;
+   /* overflow-x: hidden; */
 
 }
 main{
     margin: 2px;
-    padding: 1rem;
+    padding: 1px;
    /*  border: 2px solid black;
-    border-top-color: whitesmoke;*/
+    border-top-color: rgb(225,211,211);*/
     border-radius: 15px;
-    min-height: 100vh; 
+    min-height: 100vh;
+    /* overflow-x: hidden;  */
 }
 header{
     margin: 2px;
     padding: 1rem;
-   /*  border: 2px solid black;
-    border-bottom-color: whitesmoke;*/
-    border-radius: 15px; 
-    font-size: 1.5rem;
-    white-space: nowrap;
-    overflow: hidden;
-    background-color: indianred;
-    color: black;
     position: sticky;
-    top: 0;
+    top:0%;
+    width: 100%;
+   /*  border: 2px solid black;
+    border-bottom-color: rgb(225,211,211);*/
+    border-radius: 15px; 
+    font-size: 1.1rem;
+    white-space: nowrap;
+    overflow-x: hidden;
+    background-image: linear-gradient(rgb(225,211,211) , green);
+    color: black;
 }
 
 h1{
@@ -59,14 +63,14 @@ nav{
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    
 }
 div{
     border-radius: 50%;
     
 }
-:link{
-    font-style: italic;
-    color: aqua;
+.hover{
+    color: blue;
 }
 .img1{
     border-radius: 50%;
@@ -74,18 +78,20 @@ div{
 .block1{
     margin: 2px;
     padding: 1px;
-    background-color:rgb(161, 115, 29);
+    background-color: rgba(61, 79, 136, 0.146);
 }
 .left{
     float: left;
     margin: 1rem;
 }
 .section1{
-    background-color: rgb(161, 115, 29);
+    overflow-x: hidden;
+    background-image:linear-gradient( green , rgb(225,211,211));
     border-radius: 15px;
     display: flow-root;
     margin: 2px;
     padding: 1rem;
+  
 }
 .p1{
     font-size: 20px;
@@ -103,7 +109,7 @@ div{
     margin: 1rem;
 }
 .section2{
-    background-color: rgb(161, 115, 29);
+    background-image: linear-gradient(rgb(225,211,211) , green);
     /* margin: 2px;
     padding: 2px; */
     border-radius: 15px;
@@ -111,6 +117,8 @@ div{
     padding: 5px;
     margin: 2px;
     font-size: 1.1rem;
+    overflow-x: hidden;
+  
 
 }
 .img3{
@@ -119,10 +127,11 @@ div{
     border-radius: 50%;
 }
 .section3{
-    background-color: rgb(161, 115, 29);
-    font-size: large;
+    background-image:linear-gradient( green, rgb(225,211,211));
     border-radius: 15px;
     display: flow-root;
+    overflow-x: hidden;
+  
 }
 .block3{
     margin: 3px;
@@ -141,14 +150,21 @@ ol{
     display: flex;
     flex-direction: column;
 }
+.section4{
+    background-image: linear-gradient(rgb(225,211,211) , green);
+    overflow-x: hidden;
+  
+}
 /* textarea{
     @media screen and (maxwidth:576px) {
-        color: green; */
-        
-    
+        color: green; 
+         
+    }
+}
+     */
 
 footer{
-    background-color: indianred;
+   background-image: linear-gradient(green , rgb(225, 211, 211));
     height: auto;
     padding: 4px;
     border-radius: 15px;
@@ -168,6 +184,5 @@ footer{
     justify-content: right;
   /*   color: black; */
 }
-
 
 
