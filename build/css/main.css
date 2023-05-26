@@ -6,6 +6,7 @@
 }
 html{
     scroll-behavior: smooth;
+    
 }
 body{
     background-color: rgb(3, 3, 3);
@@ -15,6 +16,7 @@ body{
     border-radius: 15px;
     margin: 4px;
     padding:7px;
+
 }
 main{
     margin: 2px;
@@ -127,23 +129,30 @@ ol{
     display: flex;
     flex-direction: column;
 }
+textarea{
+    @media screen and (maxwidth) {
+        
+    }
+}
 footer{
     background-color: indianred;
-    height: 30px;
-    padding-top: 4px;
+    height: auto;
+    padding: 4px;
     border-radius: 15px;
     margin: 3px;
 }
 .footer1{
     font-size: larger;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: left;
 }
 .footer2{
     padding-top: 4px;
     padding-right: 4px;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: right;
   /*   color: black; */
 }
 
