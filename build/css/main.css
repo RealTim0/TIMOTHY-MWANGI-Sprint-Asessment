@@ -6,7 +6,7 @@
 }
 html{
     scroll-behavior: smooth;
-    
+
 }
 body{
     background-color: rgb(3, 3, 3);
@@ -16,6 +16,7 @@ body{
     border-radius: 15px;
     margin: 4px;
     padding:7px;
+    overflow-x: hidden;
 
 }
 main{
@@ -129,11 +130,12 @@ ol{
     display: flex;
     flex-direction: column;
 }
-textarea{
-    @media screen and (maxwidth) {
+/* textarea{
+    @media screen and (maxwidth:576px) {
+        color: green; */
         
-    }
-}
+    
+
 footer{
     background-color: indianred;
     height: auto;
