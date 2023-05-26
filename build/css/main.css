@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(3, 3, 3);
+    color: white;
+    border: 5px solid black;
+    /* border-top-color: whitesmoke; */
+    border-radius: 15px;
+    margin: 4px;
+    padding:7px;
+}
+main{
+    margin: 2px;
+    padding: 1rem;
+   /*  border: 2px solid black;
+    border-top-color: whitesmoke;*/
+    border-radius: 15px;
+    min-height: 100vh; 
+}
+header{
+    margin: 2px;
+    padding: 1rem;
+   /*  border: 2px solid black;
+    border-bottom-color: whitesmoke;*/
+    border-radius: 15px; 
+    font-size: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: indianred;
+    color: black;
+    position: sticky;
+    top: 0;
+}
+
+h1{
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+div{
+    border-radius: 50%;
+    
+}
+.img1{
+    border-radius: 50%;
+}
+.block1{
+    margin: 2px;
+    padding: 1px;
+    background-color:rgb(161, 115, 29);
+}
+.left{
+    float: left;
+    margin: 1rem;
+}
+.section1{
+    background-color: rgb(161, 115, 29);
+    border-radius: 15px;
+    display: flow-root;
+    margin: 2px;
+    padding: 1rem;
+}
+.p1{
+    font-size: 20px;
+}
+.img2{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+}
+
+.block2{
+    margin: 3px;
+    padding: 3px;
+    float: right;
+    margin: 1rem;
+}
+.section2{
+    background-color: rgb(161, 115, 29);
+    /* margin: 2px;
+    padding: 2px; */
+    border-radius: 15px;
+    display: flow-root;
+    padding: 5px;
+    margin: 2px;
+    font-size: 1.1rem;
+
+}
+.img3{
+    margin: 2px;
+    padding: 2px;
+    border-radius: 50%;
+}
+.section3{
+    background-color: rgb(161, 115, 29);
+    font-size: large;
+    border-radius: 15px;
+    display: flow-root;
+}
+.block3{
+    margin: 3px;
+    padding: 3px;
+    float: right;
+    margin: 1rem;
+    
+}
+.p2{
+    padding: 4px;
+}
+ol{
+    padding: 10px;
+    margin: 10px;
+    list-style-type: circle;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    background-color: indianred;
+    height: 30px;
+    padding-top: 4px;
+    border-radius: 15px;
+    margin: 3px;
+}
+.footer1{
+    font-size: larger;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer2{
+    padding-top: 4px;
+    padding-right: 4px;
+    display: flex;
+    justify-content: space-evenly;
+  /*   color: black; */
+}
+
+
+
